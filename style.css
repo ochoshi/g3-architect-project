@@ -1,56 +1,84 @@
 
-body{
-  // <uniquifier>: Use a uniquifier for the class name
-// <weight>: Use a value from 200 to 700
+header{
+    background-color: bisque;
+    width: 100%;
 
-.oswald-<uniquifier> {
-  font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-}
-nav{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-} 
-.gary{
-  color: var(--Dark-01, #181818);
-font-family: "Open Sans";
-font-size: 47px;
-font-style: normal;
-font-weight: 700px;
-line-height: normal;
-nav span{
- color: #FD6E0A;
- margin-left: 150px;
-}
-}
-nav >ul{
-  display:flex;
-  margin-top: 65px;
-  align-items: center;
+} nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
 }
 nav li{
-  list-style: none;
-  margin-right: 20px;
+    list-style: none;
+    margin-right: 50px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
 }
 nav a{
-  text-decoration: none;
+    text-decoration: none;
+} nav h1 span{
+    color:#FD6E0A ;
 }
+nav h1{
+    font-family:sans-serif;
+    font-weight: 700;
+    margin-left: 205px;
 
-.btn-primary{
- background-color:#FD6E0A ;
- width: 100px;
-height: 30px;
-color: white;
-font-size: 15px;
-font-family: "Open Sans";
-font-weight: 500;
-padding-bottom: 7px;
-border-radius: 3px;
 }
-.text-color{
- color: #FD6E0A;
+.first-btn{
+    background-color:#FD6E0A ;
+    color: white;
+    margin: 4px;
+    width: 80px;
+height: 25px;
+border-radius: 3px;
+border: 0;
+font-weight: 500;
+}.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../portfolio-resources/images/header_bg.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}.banner-intro{
+    margin-left: 239px;
+}.banner h3{
+    font-family:  sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color:#474747 ;
+    margin-top:150px;
+}.banner h1{
+    font-family: serif;
+    font-size: 67px;
+    font-weight: 700;
+    color:#181818 ;
+    margin-top: 3px;
+}
+.banner-intro .btn-one{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin: 10px;
+    padding-right: 45px;
+
+}.btn-prime{
+    background-color: #FD6E0A;
+    height: 35px;
+    color: aliceblue;
+    border: hidden;
+    border-radius: 3px;
+}.btn-two{
+    height: 35px;
+    border: hidden;
+    border-radius: 3px;
+    color: hsl(25, 98%, 52%); 
+    border: 2px solid #FD6E0A;
 }
