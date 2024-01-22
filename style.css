@@ -168,4 +168,31 @@ font-weight: 500;
         margin-left: 590px;
         margin-right: 600px;
         margin-top: 20px;
+     }.foot-heading{
+        background-color: #FFF8F3;
+        display: flex;
+        justify-content:space-around;
+     }.foot-column1{
+        margin: 10px;
+        padding: 40px;
+        width: 50%;
+     }.foot-start{
+        font-size: 30px;
+        font-weight: 700;
+     }.contract input,textarea{
+        display: block;
+        margin-bottom: 25px;
+        padding: 18px 35;
+        color: #757575;
+        border: hidden;
+        border-radius: 3px;
+        width: 100%;
+     }.submit{
+        width: 95px;
+       height: 40px;
+       background-color: #FD6E0A;
+       color: #FFF;
+       border: hidden;
+       border-radius: 7px;
      }
+     
